@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz Game</title>
+  <link rel="stylesheet" type="text/css" href="s2.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <div class="question-container">
+      <p id="question-text">Question goes here</p>
+    </div>
+    <div class="options-container">
+      <button class="option" id="option1" onclick="checkAnswer(1)">Option 1</button>
+      <button class="option" id="option2" onclick="checkAnswer(2)">Option 2</button>
+      <button class="option" id="option3" onclick="checkAnswer(3)">Option 3</button>
+      <button class="option" id="option4" onclick="checkAnswer(4)">Option 4</button>
+    </div>
+    <div class="result-container">
+      <p id="result-text"></p>
+      <button id="next-button" onclick="nextQuestion()">Next</button>
+    </div>
+  </div>
+  <script src="j.js"></script>
+</body>
+</html>
